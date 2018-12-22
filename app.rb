@@ -11,7 +11,7 @@ class App < Sinatra::Base
   @answer = number**2
   @answer.to_s
   end
-  
+
   get "/say/:number/:phrase" do
   @num = params[:number].to_i
   @phrase = params[:phrase]
