@@ -37,6 +37,7 @@ class App < Sinatra::Base
     else
       answer = number1%number2
     end
+    answer.to_s
   end
 
 end
