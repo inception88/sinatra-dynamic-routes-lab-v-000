@@ -17,6 +17,7 @@ class App < Sinatra::Base
     phrase = params[:phrase]
     answer = ""
     number.times {answer = answer+phrase}
+    answer
   end
 
 end
