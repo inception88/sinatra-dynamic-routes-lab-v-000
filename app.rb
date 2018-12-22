@@ -36,6 +36,7 @@ class App < Sinatra::Base
       answer = number1+number2
     else
       answer = number1%number2
+    end
   end
 
 end
